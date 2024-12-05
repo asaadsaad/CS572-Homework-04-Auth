@@ -13,7 +13,7 @@ const userSchema = new Schema({
 })
 
 const diarySchema = new Schema({
-    user_id: mongoose.Types.ObjectId,
+    user_id: Schema.Types.ObjectId,
     title: String,
     description: String,
 }, {
