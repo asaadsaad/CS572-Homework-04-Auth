@@ -1,5 +1,9 @@
 ### CS572-Homework-07-Auth
-Given the following Mongoose Models, create a backend and frontend applications to perform signup/signin + protected CRUD operations for a personal diary application. Users can only perform CRUD operations to their own entries.
+You will build a backend application for a personal diary application. 
+  
+Given the following Mongoose Models, create a backend API endpoints to perform signup + signin + all necessary routes to perform CRUD operations on the given entities. 
+  
+Users can only remove or update their own entries.
 ```typescript
 import { Schema, model, InferSchemaType, pluralize } from 'mongoose';
 
@@ -34,6 +38,5 @@ Use the following packages:
 * `bcrypt` to hash and compare passwords
 * `jsonwebtoken` to generate and verify JWT at the server
 * `multer` to upload pictures to the server
-* `jwt-decode` to read JWT at the client
   
 You may need to configure express application with `express.static()` middleware to serve the user picture.
