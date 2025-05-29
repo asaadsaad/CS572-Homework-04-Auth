@@ -1,4 +1,11 @@
 ### CS572-Homework-07-Auth
+### Question 1
+Explain how each of these security attacks work and how we prevent them:
+* Brute-Force attack
+* DDoS attack
+* XSS attack
+* Data Injection attack
+### Question 2
 You will build a backend application for a personal diary application. 
   
 Given the following Mongoose Models, create a backend API endpoints to perform signup + signin + all necessary routes to perform CRUD operations on the given entities. 
