@@ -48,4 +48,4 @@ Use the following packages:
   
 You may need to configure express application with `express.static()` middleware to serve the user picture.
 ### Question 3 (optional)
-Implement additional routes for changing the password, amd password reset.
+Implement additional API endpoints for changing the password, amd password reset.
