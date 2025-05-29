@@ -47,3 +47,5 @@ Use the following packages:
 * `multer` to upload pictures to the server
   
 You may need to configure express application with `express.static()` middleware to serve the user picture.
+### Question 3 (optional)
+Implement additional routes for changing the password, amd password reset.
